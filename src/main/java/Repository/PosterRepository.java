@@ -29,9 +29,8 @@ public class PosterRepository {
 
     public MovieItem[] findLast() {
         int resultLength;
-        MovieItem[] all = findAll();
 
-        if (all.length <= limitShowPosters) {
+        if (posterLine.length <= limitShowPosters) {
             resultLength = posterLine.length;
         } else {
             resultLength = limitShowPosters;
