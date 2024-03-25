@@ -1,20 +1,18 @@
 package Repository;
-import Domain.MovieItem;
 
+import Domain.MovieItem;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class PosterRepositoryTest {
 
-    MovieItem movie1 = new MovieItem(11, 1,"bread",2000);
-    MovieItem movie2 = new MovieItem(22, 222,"булкa",2020);
-    MovieItem movie3 = new MovieItem(33, 3,"kartoфель",1999);
-    MovieItem movie4 = new MovieItem(44, 888,"best",1956);
-    MovieItem movie5 = new MovieItem(55, 242,"god",1956);
-    MovieItem movie6 = new MovieItem(66, 677,"father",1956);
-    MovieItem movie7 = new MovieItem(77, 112,"second ",1975);
+    MovieItem movie1 = new MovieItem(11, 1, "bread", 2000);
+    MovieItem movie2 = new MovieItem(22, 222, "булкa", 2020);
+    MovieItem movie3 = new MovieItem(33, 3, "kartoфель", 1999);
+    MovieItem movie4 = new MovieItem(44, 888, "best", 1956);
+    MovieItem movie5 = new MovieItem(55, 242, "god", 1956);
+    MovieItem movie6 = new MovieItem(66, 677, "father", 1956);
+    MovieItem movie7 = new MovieItem(77, 112, "second ", 1975);
 
     @Test
     void shouldAddMovie() {
